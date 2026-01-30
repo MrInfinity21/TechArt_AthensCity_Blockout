@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 4021546100123138375}
   - component: {fileID: 4600209332059024516}
   - component: {fileID: 8459401630787826524}
+  - component: {fileID: 960982862310362225}
+  - component: {fileID: 2900795255492181506}
   m_Layer: 0
   m_Name: Blockout_TempleDoor
   m_TagString: Untagged
@@ -89,3 +91,45 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &960982862310362225
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4188232812828194925}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 60.798134, y: 300, z: 19.999998}
+  m_Center: {x: -169.6008, y: 150, z: 0}
+--- !u!65 &2900795255492181506
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4188232812828194925}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 60.798134, y: 300, z: 19.999998}
+  m_Center: {x: -34.3, y: 150, z: 0}

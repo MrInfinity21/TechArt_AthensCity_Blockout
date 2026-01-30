@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3931136625800855283}
   - component: {fileID: 6510922501961351404}
   - component: {fileID: 3375253793959209214}
+  - component: {fileID: -5908010397815901064}
   m_Layer: 0
   m_Name: Blockout_TempleRoof
   m_TagString: Untagged
@@ -89,3 +90,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &-5908010397815901064
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5084425072407515952}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 221.66669, y: 25.029083, z: 221.66669}
+  m_Center: {x: -110.83334, y: 12.514542, z: -110.83334}
