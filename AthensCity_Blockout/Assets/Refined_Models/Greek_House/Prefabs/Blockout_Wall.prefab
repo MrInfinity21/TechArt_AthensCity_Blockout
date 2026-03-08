@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5493323693503623795}
   - component: {fileID: 1870329183032367899}
   - component: {fileID: 3028456666097226963}
+  - component: {fileID: 8363440868735302046}
   m_Layer: 0
   m_Name: Blockout_Wall
   m_TagString: Untagged
@@ -89,3 +90,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8363440868735302046
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7824393902206332130}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 9.896454, y: 99.97649, z: 99.97647}
+  m_Center: {x: 3.4485931, y: 49.988243, z: -49.988235}
