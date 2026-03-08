@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5411307397352413689}
   - component: {fileID: 8142213589457100735}
   - component: {fileID: 4754911538502312589}
+  - component: {fileID: 930462550430386638}
   m_Layer: 0
   m_Name: Blockout_Temple_Pillar
   m_TagString: Untagged
@@ -89,3 +90,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &930462550430386638
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7802827262396325307}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 50.171608, y: 404.22293, z: 50.171608}
+  m_Center: {x: 18.085804, y: 202.11147, z: 18.085804}

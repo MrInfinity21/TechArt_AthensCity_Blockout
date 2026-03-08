@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4841373551577119211}
   - component: {fileID: 6385018797723469514}
   - component: {fileID: 2994934289344603878}
+  - component: {fileID: 7407505421903205841}
   m_Layer: 0
   m_Name: Blockout_Temple_Floor
   m_TagString: Untagged
@@ -89,3 +90,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7407505421903205841
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22187814243532981}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 328.17764, y: 41.869843, z: 300.00003}
+  m_Center: {x: -14.088791, y: -4.28444, z: 0.000015258789}
