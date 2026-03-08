@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 5624604174743726234}
   - component: {fileID: 8966089657216347461}
   - component: {fileID: 5244137928245107091}
+  - component: {fileID: 535515268530451319}
   m_Layer: 0
   m_Name: pCube67
   m_TagString: Untagged
@@ -124,6 +125,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &535515268530451319
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420692536766655948}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 299.99994, y: 17.92175, z: 51.556747}
+  m_Center: {x: -149.99997, y: 8.960875, z: -25.778374}
 --- !u!1 &1408745477402626329
 GameObject:
   m_ObjectHideFlags: 0
@@ -135,6 +157,7 @@ GameObject:
   - component: {fileID: 5402644129199484745}
   - component: {fileID: 9062694228372204418}
   - component: {fileID: 8402170764688071350}
+  - component: {fileID: 3464290339159471282}
   m_Layer: 0
   m_Name: pCube63
   m_TagString: Untagged
@@ -213,6 +236,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3464290339159471282
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1408745477402626329}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 51.556744, y: 17.92175, z: 403.1135}
+  m_Center: {x: 0.0000038146973, y: 0, z: 0}
 --- !u!1 &6600508645446262053
 GameObject:
   m_ObjectHideFlags: 0
@@ -224,6 +268,7 @@ GameObject:
   - component: {fileID: 1352235941613143409}
   - component: {fileID: 4498149662345253012}
   - component: {fileID: 1156493645149461034}
+  - component: {fileID: 3984934378477825179}
   m_Layer: 0
   m_Name: pCube62
   m_TagString: Untagged
@@ -302,6 +347,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3984934378477825179
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6600508645446262053}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 299.99994, y: 17.92175, z: 51.556854}
+  m_Center: {x: 0.0000076293945, y: 0, z: -0.00008583069}
 --- !u!1 &8049378945352716879
 GameObject:
   m_ObjectHideFlags: 0
@@ -313,6 +379,7 @@ GameObject:
   - component: {fileID: 8968220285417296839}
   - component: {fileID: 4444936406114957388}
   - component: {fileID: 4552446809112897609}
+  - component: {fileID: 2729154982331652779}
   m_Layer: 0
   m_Name: pCube65
   m_TagString: Untagged
@@ -391,3 +458,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2729154982331652779
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8049378945352716879}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 51.556854, y: 17.92175, z: 403.11353}
+  m_Center: {x: -0.00008583069, y: 0, z: 0}

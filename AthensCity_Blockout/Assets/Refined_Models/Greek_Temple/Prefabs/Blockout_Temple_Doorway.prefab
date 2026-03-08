@@ -1615,6 +1615,7 @@ GameObject:
   - component: {fileID: 3642909934403405678}
   - component: {fileID: 2813481064906119147}
   - component: {fileID: 4267686912732123417}
+  - component: {fileID: 3900384112654564413}
   m_Layer: 0
   m_Name: pCube1
   m_TagString: Untagged
@@ -1712,8 +1713,29 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 300, y: 404.2229, z: 31.111115}
-  m_Center: {x: -150, y: 202.11145, z: -15.555557}
+  m_Size: {x: 106.01783, y: 404.22287, z: 31.111115}
+  m_Center: {x: -53.008915, y: 202.11143, z: -15.555557}
+--- !u!65 &3900384112654564413
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7021194779765935530}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 107.64213, y: 404.22287, z: 31.111115}
+  m_Center: {x: -246.17879, y: 202.11143, z: -15.555557}
 --- !u!1 &8176156535607295771
 GameObject:
   m_ObjectHideFlags: 0
