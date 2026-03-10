@@ -2,36 +2,52 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    private InputSystem_Actions inputActions;
-    private Vector2 lookInput;
+    [Header("Target")]
+    [SerializeField] private Transform target;
 
     [Header("Camera Settings")]
-    [SerializeField] private float sensitivity = 120f;
-    [SerializeField] private float minY = -30f;
-    [SerializeField] private float maxY = 60f;
+    [SerializeField] private float distance = 5f;
+    [SerializeField] private float height = 2f;
+    [SerializeField] private float sensitivity = 150f;
 
-    private float xRotation;
+    private float yaw;
+    private float pitch;
 
-    private void Awake()
+    private Vector2 lookInput;
+
+    private void Start()
     {
-        inputActions = new InputSystem_Actions();
+        Cursor.lockState = CursorLockMode.Locked;
 
-        inputActions.Player.Look.performed += ctx => lookInput = ctx.ReadValue<Vector2>();
-        inputActions.Player.Look.canceled += _ => lookInput = Vector2.zero;
+        // Use the SAME input system from PlayerMovement
+        PlayerMovement.Input.Player.Look.performed += ctx => lookInput = ctx.ReadValue<Vector2>();
+        PlayerMovement.Input.Player.Look.canceled += _ => lookInput = Vector2.zero;
     }
-
-    private void OnEnable() => inputActions.Enable();
-    private void OnDisable() => inputActions.Disable();
 
     private void LateUpdate()
     {
-        float mouseX = lookInput.x * sensitivity * Time.deltaTime;
-        float mouseY = lookInput.y * sensitivity * Time.deltaTime;
+        RotateCamera();
+        FollowPlayer();
+    }
 
-        xRotation -= mouseY;
-        xRotation = Mathf.Clamp(xRotation, minY, maxY);
+    private void RotateCamera()
+    {
+        yaw += lookInput.x * sensitivity * Time.deltaTime;
+        pitch -= lookInput.y * sensitivity * Time.deltaTime;
 
-        transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
-        transform.parent.Rotate(Vector3.up * mouseX);
+        pitch = Mathf.Clamp(pitch, -35f, 60f);
+    }
+
+    private void FollowPlayer()
+    {
+        Quaternion rotation = Quaternion.Euler(pitch, yaw, 0);
+
+        Vector3 desiredPosition =
+            target.position
+            - (rotation * Vector3.forward * distance)
+            + Vector3.up * height;
+
+        transform.position = desiredPosition;
+        transform.rotation = rotation;
     }
 }
