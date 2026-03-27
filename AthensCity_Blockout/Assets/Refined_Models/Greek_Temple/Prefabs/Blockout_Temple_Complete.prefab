@@ -14,7 +14,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &9009069413730614599
 Transform:
@@ -104,6 +104,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blockout_Temple_Pillar (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7802827262396325307, guid: e75377b8963efba4f96a7a47b030645a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -170,6 +174,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blockout_Temple_Pillar
       objectReference: {fileID: 0}
+    - target: {fileID: 7802827262396325307, guid: e75377b8963efba4f96a7a47b030645a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -235,6 +243,10 @@ PrefabInstance:
     - target: {fileID: 7802827262396325307, guid: e75377b8963efba4f96a7a47b030645a, type: 3}
       propertyPath: m_Name
       value: Blockout_Temple_Pillar (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7802827262396325307, guid: e75377b8963efba4f96a7a47b030645a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -305,6 +317,10 @@ PrefabInstance:
     - target: {fileID: 6932407158189228111, guid: cbee2c543dc6d554390bfbe350972618, type: 3}
       propertyPath: m_Name
       value: Blockout_Temple_Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407158189228111, guid: cbee2c543dc6d554390bfbe350972618, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7744780125589959953, guid: cbee2c543dc6d554390bfbe350972618, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -396,6 +412,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blockout_Temple_Wall (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6932407158189228111, guid: cbee2c543dc6d554390bfbe350972618, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7744780125589959953, guid: cbee2c543dc6d554390bfbe350972618, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -433,6 +453,10 @@ PrefabInstance:
     - target: {fileID: 3799801072583591744, guid: f6c60583faef03b43822aa8f189347c9, type: 3}
       propertyPath: m_Name
       value: Blockout_Ceiling_Typ2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799801072583591744, guid: f6c60583faef03b43822aa8f189347c9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7282492239921599843, guid: f6c60583faef03b43822aa8f189347c9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -548,6 +572,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blockout_Temple_Stairs_1
       objectReference: {fileID: 0}
+    - target: {fileID: 6332274509405786621, guid: a47439c524c4b0947b5d4f1f720add92, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6917580929487526064, guid: a47439c524c4b0947b5d4f1f720add92, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -614,6 +642,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blockout_Roof_Cover
       objectReference: {fileID: 0}
+    - target: {fileID: 5626876941041484210, guid: 892f06ffcfdbc6e4da96d6d2ea81dcff, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6657141179609437808, guid: 892f06ffcfdbc6e4da96d6d2ea81dcff, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -679,6 +711,10 @@ PrefabInstance:
     - target: {fileID: 3057880275341454819, guid: 61c8abd218f0ab54a914cef0d76ae698, type: 3}
       propertyPath: m_Name
       value: Blockout_Ceiling_Typ1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3057880275341454819, guid: 61c8abd218f0ab54a914cef0d76ae698, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4250264676766250417, guid: 61c8abd218f0ab54a914cef0d76ae698, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -753,6 +789,10 @@ PrefabInstance:
     - target: {fileID: 8950648362215047170, guid: b07b3828690a1014c87b3a064631c0d1, type: 3}
       propertyPath: m_Name
       value: Blockout_Roof_Cover1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8950648362215047170, guid: b07b3828690a1014c87b3a064631c0d1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -860,6 +900,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blockout_Temple_Doorway
       objectReference: {fileID: 0}
+    - target: {fileID: 4043784884918212384, guid: 6bab49dc68ef9d445be87ab5371a1f3c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4673989836755259869, guid: 6bab49dc68ef9d445be87ab5371a1f3c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -962,6 +1006,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blockout_Temple_Pillar (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7802827262396325307, guid: e75377b8963efba4f96a7a47b030645a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1024,6 +1072,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blockout_Temple_Stairs_2
       objectReference: {fileID: 0}
+    - target: {fileID: 2313141758451336282, guid: 1d8764d9681586e419b4b5acc70f04a4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3561824230127700923, guid: 1d8764d9681586e419b4b5acc70f04a4, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1061,6 +1113,10 @@ PrefabInstance:
     - target: {fileID: 133950676837941221, guid: 21a7fdcf4ac2a6441b989c23ed0428ae, type: 3}
       propertyPath: m_Name
       value: Blockout_Temple_Stairs_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 133950676837941221, guid: 21a7fdcf4ac2a6441b989c23ed0428ae, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 218907684236682473, guid: 21a7fdcf4ac2a6441b989c23ed0428ae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1200,6 +1256,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blockout_Roof_Base
       objectReference: {fileID: 0}
+    - target: {fileID: 4535045633845027682, guid: fff088586775ae740b88624f0b58fa5b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4889008102826576779, guid: fff088586775ae740b88624f0b58fa5b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1249,6 +1309,10 @@ PrefabInstance:
     - target: {fileID: 22187814243532981, guid: 01f56ada2c3e0434b945ef7839d2de18, type: 3}
       propertyPath: m_Name
       value: Blockout_Temple_Floor
+      objectReference: {fileID: 0}
+    - target: {fileID: 22187814243532981, guid: 01f56ada2c3e0434b945ef7839d2de18, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2994934289344603878, guid: 01f56ada2c3e0434b945ef7839d2de18, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -1363,6 +1427,10 @@ PrefabInstance:
     - target: {fileID: 6932407158189228111, guid: cbee2c543dc6d554390bfbe350972618, type: 3}
       propertyPath: m_Name
       value: Blockout_Temple_Wall (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932407158189228111, guid: cbee2c543dc6d554390bfbe350972618, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7744780125589959953, guid: cbee2c543dc6d554390bfbe350972618, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
