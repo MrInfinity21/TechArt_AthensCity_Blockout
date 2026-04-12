@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8310366613005479478}
   - component: {fileID: 6854982355414388507}
   - component: {fileID: 6763680548003117708}
+  - component: {fileID: 4483750187586894270}
   m_Layer: 0
   m_Name: Roof_Covering_Blk
   m_TagString: Untagged
@@ -66,7 +67,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 58559262005961651, guid: 3b51583c7be02a34491a742a1dd13779, type: 3}
+  - {fileID: 2100000, guid: 35f6f2fd3f333684f9bad06ac1a7ea4d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -89,6 +90,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4483750187586894270
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051493278033274858}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 362.6373, y: 0, z: 59.086563}
+  m_Center: {x: -181.31877, y: -0.000015258789, z: -29.543312}
 --- !u!1 &2596685560553852843
 GameObject:
   m_ObjectHideFlags: 0
@@ -100,6 +122,7 @@ GameObject:
   - component: {fileID: 3558556650249018373}
   - component: {fileID: 3849231839673510247}
   - component: {fileID: 7518761122493868573}
+  - component: {fileID: 5657752654551579952}
   m_Layer: 0
   m_Name: Temple_RoofBase_Blk
   m_TagString: Untagged
@@ -155,7 +178,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 58559262005961651, guid: 3b51583c7be02a34491a742a1dd13779, type: 3}
+  - {fileID: 2100000, guid: 35f6f2fd3f333684f9bad06ac1a7ea4d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -178,6 +201,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5657752654551579952
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2596685560553852843}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 300.6983, y: 37.50009, z: 300.6983}
+  m_Center: {x: -150.00003, y: 19.310287, z: -150.00003}
 --- !u!1 &2652724404159741468
 GameObject:
   m_ObjectHideFlags: 0
@@ -189,6 +233,7 @@ GameObject:
   - component: {fileID: 4811078664904754624}
   - component: {fileID: 2205613760217310294}
   - component: {fileID: 1172810452172098281}
+  - component: {fileID: 8505080022107155450}
   m_Layer: 0
   m_Name: Roof_Covering_Blk2
   m_TagString: Untagged
@@ -244,7 +289,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 58559262005961651, guid: 3b51583c7be02a34491a742a1dd13779, type: 3}
+  - {fileID: 2100000, guid: 35f6f2fd3f333684f9bad06ac1a7ea4d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -267,6 +312,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8505080022107155450
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2652724404159741468}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 362.63748, y: 0.000014087333, z: 59.086563}
+  m_Center: {x: -181.31874, y: -0.0000070436663, z: -29.543282}
 --- !u!1 &3936197285259554905
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,7 +358,7 @@ Transform:
   m_GameObject: {fileID: 3936197285259554905}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15, y: 4.25, z: 2}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -314,6 +380,7 @@ GameObject:
   - component: {fileID: 6351285296083666876}
   - component: {fileID: 5262257121615459829}
   - component: {fileID: 5229859113420409070}
+  - component: {fileID: 3090377702765137422}
   m_Layer: 0
   m_Name: Templ_Roof_Blk
   m_TagString: Untagged
@@ -369,7 +436,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 58559262005961651, guid: 3b51583c7be02a34491a742a1dd13779, type: 3}
+  - {fileID: 2100000, guid: 35f6f2fd3f333684f9bad06ac1a7ea4d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -392,6 +459,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3090377702765137422
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3971996677400746639}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 363.05246, y: 17.47052, z: 363.05246}
+  m_Center: {x: -150.00005, y: 6.07959, z: -150.00005}
 --- !u!1 &7773355361247987216
 GameObject:
   m_ObjectHideFlags: 0
@@ -403,6 +491,7 @@ GameObject:
   - component: {fileID: 8459046240898917318}
   - component: {fileID: 1756808541539751189}
   - component: {fileID: 5864212020340697146}
+  - component: {fileID: 2111590088722173847}
   m_Layer: 0
   m_Name: Templ_RoofTile_Blk
   m_TagString: Untagged
@@ -458,7 +547,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 58559262005961651, guid: 3b51583c7be02a34491a742a1dd13779, type: 3}
+  - {fileID: 2100000, guid: 35f6f2fd3f333684f9bad06ac1a7ea4d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -481,3 +570,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2111590088722173847
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7773355361247987216}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 363.05246, y: 69.94797, z: 363.05246}
+  m_Center: {x: -181.52635, y: 34.973984, z: -181.52623}

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2754289109595629184}
   - component: {fileID: 2145222883894097435}
   - component: {fileID: 4127457197423068541}
+  - component: {fileID: 8115064056570489463}
   m_Layer: 0
   m_Name: Roof_SupportPillar_Blk
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 3698443374234404039}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.0000014603138}
-  m_LocalPosition: {x: 12, y: 4, z: 2}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.0031920087, y: 0.004286816, z: 0.0031920087}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -66,7 +67,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8352408646106816111, guid: b08d0beadab8e9c47a6afc9d26e085c4, type: 3}
+  - {fileID: 2100000, guid: 7c0ec38d7c43f3f41905c17c315b90ca, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -89,3 +90,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8115064056570489463
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3698443374234404039}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 99.99988, y: 142.16597, z: 100}
+  m_Center: {x: 49.99994, y: 71.08317, z: -50}
